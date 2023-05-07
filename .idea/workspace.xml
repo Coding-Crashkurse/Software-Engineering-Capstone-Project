@@ -10,8 +10,6 @@
       <change afterPath="$PROJECT_DIR$/../basics/.idea/project-template.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../basics/basics.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../javabasics/javabasics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pre-commit-config.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../poetrytest/rick-portal-gun/rick_portal_gun/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Archiv/Section Code (Start)/node_modules/clone/clone.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Asyncio/main.py" beforeDir="false" />
@@ -404,12 +402,7 @@
       <change beforePath="$PROJECT_DIR$/../osyoutube/file2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../osyoutube/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pyprojectfast/scripts/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pyprojectfast/static/pyscript.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pyprojectfast/templates/index.html" beforeDir="false" />
