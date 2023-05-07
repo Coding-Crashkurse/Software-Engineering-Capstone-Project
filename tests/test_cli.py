@@ -78,6 +78,7 @@ def test_create_user(common_variables):
             in result.stdout
         )
 
+
 def test_login(common_variables):
     with patch("typer.prompt") as mock_prompt, patch(
         "app.cli.get_db_session"

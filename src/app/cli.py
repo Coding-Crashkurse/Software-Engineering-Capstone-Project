@@ -6,7 +6,6 @@ from tabulate import tabulate
 
 from app.database import (
     Password,
-    SessionLocal,
     User,
     create_tables,
     get_db_session,
@@ -39,7 +38,8 @@ def create_user():
         existing_user = get_user_by_username(username=username, db=db)
         if existing_user is not None:
             typer.echo(
-                "Dieser Benutzername ist bereits vergeben. Bitte wähle einen anderen Benutzernamen."
+                "Dieser Benutzername ist bereits vergeben. "
+                "Bitte wähle einen anderen Benutzernamen."
             )
             db.close()
             return
@@ -119,7 +119,7 @@ def create_password():
         db.commit()
         db.refresh(new_password)
 
-        typer.echo(f"Passwort für wurde erstellt.")
+        typer.echo("Passwort für wurde erstellt.")
 
 
 @app.command(name="get_passwords")
@@ -140,7 +140,11 @@ def get_passwords():
         for stored_password in stored_passwords:
             decrypted_password = decrypt_password(stored_password.encrypted_password)
             table_data.append(
-                [stored_password.title, stored_password.username, decrypted_password]
+                [
+                    stored_password.title,
+                    stored_password.username,
+                    decrypted_password,
+                ]
             )
 
         headers = ["Titel", "Benutzername", "Passwort"]

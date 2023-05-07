@@ -54,7 +54,9 @@ def test_get_logged_in_user(temp_db):
     db = Session(temp_db)
 
     user = User(
-        username="testuser", hashed_password="hashedpassword", is_logged_in=True
+        username="testuser",
+        hashed_password="hashedpassword",
+        is_logged_in=True,
     )
     db.add(user)
     db.commit()
@@ -71,7 +73,6 @@ def test_get_logged_in_user(temp_db):
 
 
 def test_get_user_by_username(temp_db):
-    # Test if get_user_by_username() returns the correct user by username
     db = Session(temp_db)
 
     user = User(username="testuser", hashed_password="hashedpassword")
@@ -84,6 +85,6 @@ def test_get_user_by_username(temp_db):
 
     assert user_by_username == user
     assert user_by_username.username == "testuser"
-    assert user_by_username.hashed_password == "hashedpasswordsdasda"
+    assert user_by_username.hashed_password == "hashedpassword"
 
     db.close()

@@ -17,7 +17,12 @@ def test_hash_password():
     hashed_different_password = hash_password(different_password)
     assert hashed_password != hashed_different_password
 
-@patch.dict(os.environ, {"FERNET_KEY": "ZmDfcTF7_60GrrY167zsiPd67pEvs0aGOv2oasOM1Pg="}, clear=True)
+
+@patch.dict(
+    os.environ,
+    {"FERNET_KEY": "ZmDfcTF7_60GrrY167zsiPd67pEvs0aGOv2oasOM1Pg="},
+    clear=True,
+)
 def test_encrypt_decrypt_password():
     password = "test_password"
 
