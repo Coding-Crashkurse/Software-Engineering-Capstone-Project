@@ -41,3 +41,6 @@ jobs:
       - name: Run tests
         run: |
           poetry run pytest
+
+      - name: Update Coverage Badge
+        uses: we-cli/coverage-badge-action@main
