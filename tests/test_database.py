@@ -84,6 +84,6 @@ def test_get_user_by_username(temp_db):
 
     assert user_by_username == user
     assert user_by_username.username == "testuser"
-    assert user_by_username.hashed_password == "hashedpassword"
+    assert user_by_username.hashed_password == "hashedpasswordsdasda"
 
     db.close()
