@@ -401,6 +401,9 @@
       <change beforePath="$PROJECT_DIR$/../osyoutube/file1.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../osyoutube/file2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../osyoutube/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pyprojectfast/scripts/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pyprojectfast/static/pyscript.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pyprojectfast/templates/index.html" beforeDir="false" />
